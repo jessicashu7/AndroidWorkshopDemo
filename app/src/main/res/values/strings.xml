@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Workshop Demo</string>
+    <string name="send_button">sent_button</string>
+    <string name="send_cookies_message">Send cookies to your friend!</string>
+    <string name="add_button">+</string>
+    <string name="subtract_button">-</string>
+    <string name="name_edittext">Name of Friend</string>
+    <string name="message">You sent %1$s %2$s cookies!</string>
+</resources>
