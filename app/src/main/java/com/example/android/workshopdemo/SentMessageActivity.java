@@ -19,7 +19,7 @@ public class SentMessageActivity extends AppCompatActivity {
     }
 
     public void showMessage(){
-        TextView message = (TextView) findViewById(R.id.message);
+        TextView message = findViewById(R.id.message);
 
         String name = getIntent().getStringExtra(NAME);
         String count = getIntent().getStringExtra(COUNT);

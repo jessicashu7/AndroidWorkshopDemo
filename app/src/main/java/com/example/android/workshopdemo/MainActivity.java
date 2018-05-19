@@ -19,9 +19,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button subtract_button = (Button) findViewById(R.id.subtract_button);
-        Button add_button = (Button) findViewById(R.id.add_button);
-        Button send_button = (Button) findViewById(R.id.send_button);
+        Button subtract_button = findViewById(R.id.subtract_button);
+        Button add_button =  findViewById(R.id.add_button);
+        Button send_button =  findViewById(R.id.send_button);
 
         subtract_button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,19 +48,19 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void addOne(){
-        TextView count = (TextView) findViewById(R.id.count_text);
+        TextView count =  findViewById(R.id.count_text);
         count.setText(String.valueOf(Integer.valueOf(count.getText().toString()) + 1));
     }
 
     public void subtractOne(){
-        TextView count = (TextView) findViewById(R.id.count_text);
+        TextView count =  findViewById(R.id.count_text);
         if (Integer.parseInt(count.getText().toString()) > 0){
             count.setText(String.valueOf(Integer.valueOf(count.getText().toString()) - 1));
         }
     }
     public void sendMessage(){
-        EditText name_view = (EditText) findViewById(R.id.name_edittext);
-        TextView count_view = (TextView) findViewById(R.id.count_text);
+        EditText name_view = findViewById(R.id.name_edittext);
+        TextView count_view =  findViewById(R.id.count_text);
 
         String name = name_view.getText().toString();
         String count = count_view.getText().toString();
