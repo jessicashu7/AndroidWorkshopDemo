@@ -1,4 +1,4 @@
-#Android Workshop
+# Android Workshop
 
 This is a demo app created for a workshop presented by Jessica Shu (UCI ICS Student Council). 
 
